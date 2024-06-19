@@ -142,7 +142,7 @@ class TextAnalyzer:
         try:
             return least_common[:5]
         except:
-             return least_common[:]
+            return least_common[:]
 
     def read_sample_csv(self):
         """Reads the sample.csv file and returns the list of fieldnames"""
